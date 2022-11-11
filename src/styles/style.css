@@ -1,7 +1,180 @@
 /** CSS STYLE **/
+:root {
+  --white: #fff;
+  --transparent-white: #d7ccc0;
+  --light: #f5f4f0;
+  --main: #fe8a02;
+  --dark-main: #42413c;
+  --dark: #2a2626;
+  --transparent-dark: #908d8b;
+  --brown: #b09a81;
+  --blue: #1085c5;
+}
 
-.hello {
-  display: block;
+@font-face {
+  font-family: Neucha;
 
-  color: #fff;
+  src: url("../fonts/Neucha/Neucha-Regular.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.6em;
+  color: var(--dark);
+}
+
+.wrapper {
+  position: relative;
+  max-width: 1110px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+h1, h2, h3, .menu-header {
+  margin: 0;
+  padding: 0;
+
+  font-family: Neucha, sans-serif;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+p {
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.color-main {
+  color: var(--main);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.bg-color-light {
+  background-color: var(--light);
+}
+
+.bg-main::before {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+
+  content: "";
+
+  background-image: url(../images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.1;
+}
+
+header {
+  position: relative;
+}
+
+.header-title {
+  position: relative;
+  z-index: 1;
+}
+
+header img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+}
+
+.columns-2 {
+  columns: 2;
+  column-gap: 30px;
+  margin-top: 185px;
+}
+
+.columns-2 p {
+  break-inside: avoid;
+}
+
+.btn {
+  display: inline-block;
+  margin: 40px 0 0 570px;
+
+  background: var(--main);
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 12px 24px;
+  font-weight: 700;
+}
+
+.youtube-block{
+  text-align: center;
+  margin-bottom: -200px;
+}
+
+.youtube-block .video {
+  filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
+}
+
+#navigation {
+  background: var(--dark-main);
+  padding-top: 100px;
+}
+
+.menu-items {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 30px;
+}
+
+.nav-item {
+  width: calc((100% / 3) - 20px);
+  background: var(--light);
+  box-sizing: border-box;
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+.nav-item a {
+  color: var(--dark);
+}
+
+.nav-item p {
+  margin: 0;
+}
+
+.nav-item h3 {
+  padding: 0 0 16px;
+}
+
+.menu-header {
+  width: calc((100% / 3) - 20px);
+  margin-bottom: 20px;
+  font-size: 52px;
+}
+
+.nav-number {
+  margin: 0 0 40px;
+  font-size: 64px;
+  font-family: Neucha, sans-serif;
+  line-height: 1;
 }
