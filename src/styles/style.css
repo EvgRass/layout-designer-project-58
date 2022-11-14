@@ -37,13 +37,6 @@ body {
   padding: 100px 0;
 }
 
-.wrapper h3 {
-  font-family: 'Open Sans', sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 10px;
-}
-
 h1, h3, .menu-header {
   margin: 0;
   padding: 0;
@@ -186,8 +179,11 @@ header img {
 }
 
 #navigation {
-  background: var(--dark-main);
   padding-top: 100px;
+}
+
+.bg-black {
+  background: var(--dark-main);
 }
 
 .menu-items {
@@ -262,9 +258,65 @@ header img {
   font-size: 14px;
 }
 
+#footer-section {
+  color: var(--white);
+}
+
 .prew-text {
-  font-family: Neucha, sans-serif;
-  font-size: 34px;
-  line-height: 1.2;
-  margin-top: 30px;
+  margin: 55px;
+}
+
+.email-with-button {
+  display: flex;
+}
+
+.email-with-button input{
+  height: 50px;
+  width: 423px;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.send {
+  cursor: pointer;
+  border: none;
+  width: 70px;
+  height: 50px;
+  background-color: var(--main);
+}
+
+.send::before {
+  content: url(../images/send.svg);
+}
+
+.form {
+  margin: 38px 0 0 82px;
+}
+
+form .email {
+  margin: 0 0 9px;
+  font-size: 18px;
+}
+
+.agreement {
+  font-size: 12px;
+}
+
+.agreement a {
+  color: var(--white);
+}
+
+footer .info {
+  margin-top: 60px;
+  font-size: 14px;
+  text-align: center;
+  color: #000;
+}
+
+footer a {
+  text-decoration: underline;
+}
+
+.send:hover {
+  background: #EA7600;
 }
