@@ -33,6 +33,7 @@ body {
   font-family: 'Open_Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
+  font-weight: 400;
   color: var(--dark);
 }
 
