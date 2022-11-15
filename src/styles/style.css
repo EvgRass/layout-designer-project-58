@@ -20,11 +20,17 @@
   src: url("../fonts/Neucha/Neucha-Regular.ttf");
 }
 
+@font-face {
+  font-family: Open_Sans;
+
+  src: url("../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
 body {
   margin: 0;
   padding: 0;
 
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open_Sans', sans-serif;
   font-size: 16px;
   line-height: 1.6em;
   color: var(--dark);
@@ -176,7 +182,7 @@ header img {
 }
 
 .youtube-block p {
-  margin: 27px 0 30px;
+  margin: 30px 0;
 }
 
 .youtube-block .video {
