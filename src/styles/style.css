@@ -57,7 +57,6 @@ h1 {
   font-family: Neucha;
   font-weight: 400;
   font-size: var(--fsh1);
-  line-height: 1.2em;
   color: var(--dark);
   margin: 0;
 }
@@ -76,7 +75,7 @@ h3 {
 }
 
 p {
-  margin: 0 0 16px;
+  margin: 0 0 14px;
   padding: 0;
 }
 
@@ -155,7 +154,7 @@ header img {
 }
 
 .mt-185 {
-  margin-top: 185px;
+  margin-top: 200px;
 }
 
 .columns-2 p {
@@ -164,7 +163,7 @@ header img {
 
 .btn {
   display: inline-block;
-  margin: 40px 0 0 570px;
+  margin: 24px 0 0 570px;
 
   background: var(--main);
   text-transform: uppercase;
