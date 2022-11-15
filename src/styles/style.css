@@ -29,6 +29,7 @@
 body {
   margin: 0;
   padding: 0;
+
   color: var(--dark);
   font-weight: 400;
   font-size: 16px;
@@ -38,6 +39,7 @@ body {
 
 .wrapper {
   position: relative;
+
   max-width: 1110px;
   margin: 0 auto;
   padding: 100px 0;
@@ -48,6 +50,7 @@ h3,
 .menu-header {
   margin: 0;
   padding: 0;
+
   font-weight: 400;
   font-family: Neucha, sans-serif;
   line-height: 1.2em;
@@ -55,6 +58,7 @@ h3,
 
 h1 {
   margin: 0;
+
   color: var(--dark);
   font-weight: 400;
   font-size: var(--fsh1);
@@ -63,6 +67,7 @@ h1 {
 
 h2 {
   margin: 0;
+
   color: var(--main);
   font-weight: 400;
   font-size: var(--fsh2);
@@ -121,13 +126,17 @@ a {
 
 .bg-main::before {
   position: absolute;
+
   width: 100%;
   height: 100%;
-  content: "";
+
   background-image: url("../images/background.png");
   background-repeat: no-repeat;
   background-size: cover;
+
   opacity: 0.1;
+
+  content: "";
 }
 
 header,
@@ -172,9 +181,11 @@ header img {
   display: inline-block;
   margin: 24px 0 0 570px;
   padding: 12px 24px;
+
   color: var(--white);
   font-weight: 700;
   text-transform: uppercase;
+
   background: var(--main);
 }
 
@@ -184,6 +195,7 @@ header img {
 
 .youtube-block {
   margin-bottom: -100px;
+
   text-align: center;
 }
 
@@ -193,6 +205,7 @@ header img {
 
 .youtube-block .video {
   margin-bottom: -100px;
+
   border: none;
   filter: drop-shadow(0 16px 32px rgba(0 0 0 / 15%));
 }
@@ -212,11 +225,13 @@ footer a {
 .menu-items {
   display: flex;
   flex-wrap: wrap;
+
   column-gap: 30px;
 }
 
 .menu-items a {
   display: contents;
+
   color: var(--dark);
 }
 
@@ -225,6 +240,7 @@ footer a {
   width: calc((100% / 3) - 20px);
   margin-bottom: 20px;
   padding: 24px;
+
   background: var(--light);
 }
 
@@ -242,6 +258,7 @@ footer a {
 
 .nav-number {
   margin: 0 0 40px;
+
   font-size: 64px;
   font-family: Neucha, sans-serif;
   line-height: 1;
@@ -256,6 +273,7 @@ footer a {
 .menu-intro {
   width: calc((100% / 3) - 20px);
   margin-bottom: 20px;
+
   font-size: 52px;
   font-family: Neucha, sans-serif;
   line-height: 120%;
@@ -267,6 +285,7 @@ footer a {
 
 .flex-columns-2 {
   display: flex;
+
   column-gap: 30px;
 }
 
@@ -278,6 +297,7 @@ footer a {
 .descr-h4 {
   margin: 100px 0 20px;
   padding-left: 10px;
+
   font-weight: 700;
   font-size: 14px;
   text-transform: uppercase;
@@ -289,6 +309,7 @@ footer a {
 
 .prew-text {
   margin-top: 30px;
+
   font-size: 34px;
   font-family: Neucha, sans-serif;
   line-height: 120%;
@@ -312,6 +333,7 @@ footer a {
 .send {
   width: 70px;
   height: 50px;
+
   background-color: var(--main);
   border: none;
   cursor: pointer;
@@ -327,6 +349,7 @@ footer a {
 
 form .email {
   margin: 0 0 9px;
+
   font-size: 18px;
 }
 
@@ -340,6 +363,7 @@ form .email {
 
 footer .info {
   margin-top: 60px;
+
   color: #000;
   font-size: 14px;
   text-align: center;
